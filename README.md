@@ -172,8 +172,8 @@ self.canvas_width = 640
 self.canvas_height = 480
 
 # Detection confidence
-min_detection_confidence = 0.95  #0.7       # Hand detection threshold
-min_tracking_confidence = 0.9  #0.5        # Hand tracking threshold
+min_detection_confidence = 0.7       # Hand detection threshold
+min_tracking_confidence = 0.5        # Hand tracking threshold
 ```
 
 ## 📁 File Structure
