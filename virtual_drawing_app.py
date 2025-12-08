@@ -24,7 +24,7 @@ class VirtualDrawingApp:
         # Drawing parameters
         self.prev_x, self.prev_y = 0, 0
         self.drawing_color = (0, 0, 255)  # Red color (BGR)
-        self.brush_thickness = 8
+        self.brush_thickness = 7
         self.eraser_thickness = 76
         
         # Application state
