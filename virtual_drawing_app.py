@@ -12,7 +12,7 @@ class VirtualDrawingApp:
             static_image_mode=False,
             max_num_hands=1,
             min_detection_confidence=0.80,
-            min_tracking_confidence=0.75
+            min_tracking_confidence=0.80
         )
         self.mp_draw = mp.solutions.drawing_utils
         
