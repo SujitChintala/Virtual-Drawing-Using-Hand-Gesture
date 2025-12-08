@@ -165,7 +165,7 @@ You can modify these parameters in the code:
 # Drawing parameters
 self.drawing_color = (0, 0, 255)  # BGR color (Red by default)
 self.brush_thickness = 7           # Drawing line thickness
-self.eraser_thickness = 80         # Eraser size
+self.eraser_thickness = 75         # Eraser size
 
 # Canvas size
 self.canvas_width = 640
