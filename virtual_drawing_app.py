@@ -141,7 +141,7 @@ class VirtualDrawingApp:
         frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         results = self.hands.process(frame_rgb)
         
-        gesture_text = "No hand detected"
+        gesture_text = "No Hand Detected"
         
         if results.multi_hand_landmarks:
             for hand_landmarks in results.multi_hand_landmarks:
