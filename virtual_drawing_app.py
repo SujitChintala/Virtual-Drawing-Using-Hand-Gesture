@@ -54,7 +54,7 @@ class VirtualDrawingApp:
         thumb_mcp = landmarks[2].x
         
         # Check if index is up and others are down
-        index_up = index_tip > index_pip
+        index_up = index_tip < index_pip
         middle_down = middle_tip > middle_pip
         ring_down = ring_tip > ring_pip
         pinky_down = pinky_tip > pinky_pip
