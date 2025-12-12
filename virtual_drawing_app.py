@@ -196,7 +196,7 @@ class VirtualDrawingApp:
                              20, (255, 0, 0), 2)
                 
                 else:
-                    gesture_text = "Unknown Gesture"
+                    gesture_text = "Unknown Gesture!"
                     self.prev_x, self.prev_y = 0, 0
         else:
             self.prev_x, self.prev_y = 0, 0
